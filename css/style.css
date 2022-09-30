@@ -30,10 +30,18 @@ a{
     text-decoration: none;
 }
 
+.txtwh{
+    font-weight: 400;
+}
+
 .flp-flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flp-bg-dg{
+    background-color: #1f1f1f;
 }
 
 .flp-bg-rng{
@@ -90,6 +98,10 @@ height: 500px;
     font-size: 1.5em;
 }
 
+.flp-font2b{
+    font-size: 1.2em;
+}
+
 .flp-font3{
     font-size: 2.5em;
     font-weight: 400;
@@ -137,6 +149,15 @@ padding: 10%;
     background-position: center;
 }
 
+.ittakestwoimg{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg); 
+     height: 700px;
+     background-size: cover;
+     background-position: center;
+ }
+
+
+
 .mrg2{
     margin-bottom: 25px;
 }
@@ -162,3 +183,11 @@ padding: 10%;
     width: 100%;
 }
 
+
+.pdng2{
+    padding: 40px 0px;
+}
+
+.pdng3{
+    padding: 20px 0px;
+}
