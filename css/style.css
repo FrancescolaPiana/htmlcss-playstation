@@ -26,17 +26,19 @@ a{
 }
 
 .flp-bg-w{
-    background-color: white;
+    background-color: rgb(207, 23, 23);
+    height: 54px;
 }
 
 .flp-bg-b{
     background-color: black;
-    
+    height: 40px
 }
 
-.flp-bg-r{
-    background-color: rgb(0, 60, 255);
-    height: 5000px;
+.maingap{
+margin-top: 94px;
+background-color: aqua;
+height: 500px;
 }
 
 .flp-padding{
@@ -44,31 +46,26 @@ a{
     
 }
 
+
 .flp-padding2{
-    padding: 1%;   
+       margin: 10px;
 }
 
 .flp-font1{
     font-size: 1.0em;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .flp-font2{
-    font-size: 150%;
+    font-size: 1.5em;
 }
 
 .mrg{
-    margin: 8px;
+    margin: 0px 0px 0px 8px;
 }
 
 .sonylogo{
 padding: 10%;
-}
-
-
-
-.ps-logo{
-    width: 200%;
 }
 
 .rnd1{
