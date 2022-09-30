@@ -22,6 +22,10 @@
     color: #CD3D0F;
 }
 
+.blu{
+    color: #0070D1;
+}
+
 a{
     text-decoration: none;
 }
@@ -41,7 +45,9 @@ a{
     color: white;
 }
 
-
+.flp-bg-bl{
+    background-color: #0070D1;
+}
 
 .flp-bg-w{
     background-color: white;
@@ -89,6 +95,12 @@ height: 500px;
     font-weight: 400;
 }
 
+.flp-font4{
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
 .mrg{
     margin: 0px 0px 0px 8px;
 }
@@ -99,6 +111,17 @@ padding: 10%;
 
 .rnd1{
     border-radius: 30px;
+}
+
+.rnd2{
+    border-radius: 15px;
+    padding: 2px;
+    border: 2px solid white;
+}
+
+.sas:hover .rnd2{
+    border:2px solid #0070D1;
+    transition: all 0.3s;
 }
 
 .menu-button{
@@ -118,7 +141,24 @@ padding: 10%;
     margin-bottom: 25px;
 }
 
-.mrg3{
-    margin: 25px 0px;
-
+.mrg2b{
+    margin: 20px 0px;
 }
+
+.mrg3{
+    margin: 60px 0px;
+}
+
+.pdng{
+    padding: 18px;
+    border-bottom: 2px solid #ffffff ;
+}
+
+.pdng:hover{
+    border-bottom: 2px solid #0070D1;
+}
+
+.siz{
+    width: 100%;
+}
+
