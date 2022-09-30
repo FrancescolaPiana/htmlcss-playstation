@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .blk{
@@ -13,7 +14,13 @@
     color: grey;
 }
 
+.wht{
+    color: white;
+}
 
+.rng{
+    color: #CD3D0F;
+}
 
 a{
     text-decoration: none;
@@ -25,14 +32,29 @@ a{
     align-items: center;
 }
 
+.flp-bg-rng{
+    background-color: #CD3D0F;
+}
+
+.saro:hover{
+    background-color: #9c320e;
+    color: white;
+}
+
+
+
 .flp-bg-w{
-    background-color: rgb(207, 23, 23);
+    background-color: white;
     height: 54px;
 }
 
 .flp-bg-b{
     background-color: black;
     height: 40px
+}
+
+.flp-bg-gg{
+    background-color: rgb(77, 77, 77);
 }
 
 .maingap{
@@ -43,9 +65,11 @@ height: 500px;
 
 .flp-padding{
     padding: 0.3%;
-    
 }
 
+.flp-padding1{
+    padding: 10px  16px ;
+}
 
 .flp-padding2{
        margin: 10px;
@@ -60,6 +84,11 @@ height: 500px;
     font-size: 1.5em;
 }
 
+.flp-font3{
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
 .mrg{
     margin: 0px 0px 0px 8px;
 }
@@ -70,11 +99,21 @@ padding: 10%;
 
 .rnd1{
     border-radius: 30px;
-    background-color: rgb(77, 77, 77);
 }
 
 .menu-button{
     border: 1px solid grey;
     padding: 4px 8px;
     border-radius: 5px;
+}
+
+.returnalimg{
+   background-image: url(../img/jumbo-bg.png); 
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.mrg2{
+    margin-bottom: 25px;
 }
