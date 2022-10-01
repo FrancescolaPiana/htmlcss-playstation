@@ -30,6 +30,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: white;
+}
+
 .txtwh{
     font-weight: 400;
 }
@@ -44,6 +48,19 @@ a{
     background-color: #1f1f1f;
 }
 
+
+.flp-bg-lg{
+    background-color: rgb(224, 224, 224);
+}
+
+.flp-bg-db{
+    background-color: #161C3B;
+}
+
+.flp-bg-gr{
+    background-color: #BEBCBB;
+}
+
 .flp-bg-rng{
     background-color: #CD3D0F;
 }
@@ -54,7 +71,7 @@ a{
 }
 
 .flp-bg-bl{
-    background-color: #0070D1;
+    background-color:#00439C;
 }
 
 .flp-bg-w{
@@ -73,8 +90,6 @@ a{
 
 .maingap{
 margin-top: 94px;
-background-color: aqua;
-height: 500px;
 }
 
 .flp-padding{
@@ -100,6 +115,7 @@ height: 500px;
 
 .flp-font2b{
     font-size: 1.2em;
+    font-weight: 500;
 }
 
 .flp-font3{
@@ -146,7 +162,7 @@ padding: 10%;
    background-image: url(../img/jumbo-bg.png); 
     height: 600px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .ittakestwoimg{
@@ -167,7 +183,19 @@ padding: 10%;
 }
 
 .mrg3{
-    margin: 60px 0px;
+    margin: 80px 0px;
+}
+
+.mrg3b{
+    margin: 30px 0px;
+}
+
+.mrg4{
+    margin-top: 200px;
+}
+
+.mrgn5{
+    margin-bottom: 10px;
 }
 
 .pdng{
@@ -183,6 +211,19 @@ padding: 10%;
     width: 100%;
 }
 
+.siz2{
+    width: 80%;
+    height: 95%;
+}
+
+.siz3{
+    width: 15%;
+}
+
+.siz3b{
+    width: 40%;
+}
+
 
 .pdng2{
     padding: 40px 0px;
@@ -190,4 +231,12 @@ padding: 10%;
 
 .pdng3{
     padding: 20px 0px;
+}
+
+.stln{
+    list-style: none;
+}
+
+.btnsa{
+    text-decoration: underline;
 }
